@@ -1,0 +1,109 @@
+{
+  "measured_on": "2026-10-28",
+  "prepared_on": "2026-11-05",
+  "source": "Resumo estático de artefatos de execuções do laboratório pessoal. IDs, URLs e identidades removidos da cópia pública.",
+  "live_telemetry": false,
+  "operational_checks": 8,
+  "integration_passed": 24,
+  "integration_failed": 0,
+  "unit_passed": 10,
+  "tests": [
+    {
+      "test_id": "baseline_acceptance",
+      "status": "pass"
+    },
+    {
+      "test_id": "baseline_gate",
+      "status": "pass"
+    },
+    {
+      "test_id": "manual_golden_loans",
+      "status": "pass"
+    },
+    {
+      "test_id": "manual_golden_closed",
+      "status": "pass"
+    },
+    {
+      "test_id": "manual_golden_open",
+      "status": "pass"
+    },
+    {
+      "test_id": "manual_golden_duration",
+      "status": "pass"
+    },
+    {
+      "test_id": "report_idempotence",
+      "status": "pass"
+    },
+    {
+      "test_id": "bronze_reprocess_no_new_rows",
+      "status": "pass"
+    },
+    {
+      "test_id": "gold_reprocess_same_hash",
+      "status": "pass"
+    },
+    {
+      "test_id": "duplicate_reconciliation",
+      "status": "pass"
+    },
+    {
+      "test_id": "duplicate_warning_does_not_block",
+      "status": "pass"
+    },
+    {
+      "test_id": "duplicate_gold_unchanged",
+      "status": "pass"
+    },
+    {
+      "test_id": "late_inside_window_passes",
+      "status": "pass"
+    },
+    {
+      "test_id": "late_corrects_business_state",
+      "status": "pass"
+    },
+    {
+      "test_id": "invalid_rows_quarantined",
+      "status": "pass"
+    },
+    {
+      "test_id": "critical_failure_blocks",
+      "status": "pass"
+    },
+    {
+      "test_id": "publish_refuses_failed_gate",
+      "status": "pass"
+    },
+    {
+      "test_id": "approved_release_preserved",
+      "status": "pass"
+    },
+    {
+      "test_id": "all_conflicting_source_rows_rejected",
+      "status": "pass"
+    },
+    {
+      "test_id": "two_distinct_payloads_in_conflict",
+      "status": "pass"
+    },
+    {
+      "test_id": "conflicting_gate_blocked",
+      "status": "pass"
+    },
+    {
+      "test_id": "late_outside_window_blocked",
+      "status": "pass"
+    },
+    {
+      "test_id": "explicit_backfill_recovers",
+      "status": "pass"
+    },
+    {
+      "test_id": "backfill_recomputes_closed",
+      "status": "pass"
+    }
+  ],
+  "history": "A execução final passou após corrigir um gabarito; a execução anterior foi preservada no laboratório."
+}
